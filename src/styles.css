@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Start {
+  width: 100vh;
+  height: 100vh;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom right,
+    rgb(123, 11, 214),
+    rgb(0, 47, 255),
+    rgb(0, 204, 255)
+  );
+}
+
+.game-mode-button {
+  margin: 15px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom right,
+    rgb(0, 47, 255),
+    rgb(0, 204, 255)
+  );
+}
+
+.div-col {
+  flex-direction: column;
+}
+
+.div-row {
+  flex-direction: row;
+}
+
+.mapa {
+  background-image: url("https://www.dekowizja.pl/img2/700/55360443/naklejka-mapa-swiata.jpg");
+  background-size: contain;
+  width: 500px;
+  height: 320px;
+  border: 2px solid rgb(17, 156, 221);
+}
+
+.circle {
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  position: relative;
+  border: 4px solid rgb(17, 156, 221);
+  box-shadow: 0px 0px 5px rgb(59, 240, 14);
+  background: rgb(7, 217, 245);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
